@@ -9,6 +9,19 @@ This file shows sample entries for your **Developer's Diary**. You must document
 
 ---
 
+Entry 1 – Choosing Student Budget Theme (Week 8)
+**Artifact:** <img width="1909" height="840" alt="image" src="https://github.com/user-attachments/assets/c293b8dc-73c2-4ba5-b23f-c0f27ccd5305" />
+
+
+**Context:** Selecting the right finance problem to solve.
+
+**My Prompt:** "What's a good theme for a finance assistant that's unique?"
+
+**AI Response:** Suggested Student Budget Application.
+
+**Reflection:** Learned to be specific about user personas...
+
+
 ## Foundation Skills Examples
 
 ### Entry 1 – Effective AI Prompting for Business Data
