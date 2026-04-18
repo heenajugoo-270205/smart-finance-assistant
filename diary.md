@@ -55,7 +55,15 @@ Entry 2 – AI Server Connection Error (Week 8)
 
 **What I Tried:** 
 1. Re-ran the cell multiple times but i got the same error each time.
-2. Checked that my API key was correct
+2. Checked that my API key was correct.
+
+**AI Assistance:** I asked ChatGPT what causes connection errors. It explained that the issue could be: server is down or unreachable, network or internet issues, wrong or missing API,firewall or network restrcitions, wrong server configuration.
+<img width="909" height="712" alt="image" src="https://github.com/user-attachments/assets/061abc4b-e3be-4638-a46f-85aae371307b" />
+<img width="925" height="557" alt="image" src="https://github.com/user-attachments/assets/14fec166-deda-4a35-9f15-f3aa459d77e9" />
+<img width="877" height="380" alt="image" src="https://github.com/user-attachments/assets/b0f89bef-0630-42f8-a349-71be1f250650" />
+
+**My Decision:** Instead of wasting time troubleshooting a server I cannot control, I decided to build a mock chatbot that works without the AI connection. This allows me to continue developing my Student Budget Assistant.
+
 
 
 ## Foundation Skills Examples
