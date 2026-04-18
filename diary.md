@@ -64,6 +64,40 @@ Entry 2 – AI Server Connection Error (Week 8)
 
 **My Decision:** Instead of wasting time troubleshooting a server I cannot control, I decided to build a mock chatbot that works without the AI connection. This allows me to continue developing my Student Budget Assistant.
 
+### Entry 3 – Creating and Cleaning Student Transaction Data (Week 8)
+
+**Artifact:** 
+<img width="732" height="814" alt="image" src="https://github.com/user-attachments/assets/5aba2f06-adea-4f84-a5b8-8e52b69e8d95" />
+
+**Context:** Creating realistic student expense data and testing the data cleaning function.
+
+**My Prompt to AI:** "Create realistic sample transaction data for a university student. Include income from part-time jobs and allowance, expenses like rent, textbooks, coffee, groceries, and entertainment. Use Australian businesses like Woolworths and Coles. Include negative amounts for expenses and positive amounts for income." The sample transaction should be date, then amount, category and lastly description.
+
+**AI Response:** <img width="928" height="571" alt="image" src="https://github.com/user-attachments/assets/5f2bc3e6-0367-47b6-a7c3-79ba21b158db" />
+
+**Why I Created the Test Cell:** I created a test for the 'load_and_clean_transaction_data' function for the following reasons:
+
+1. To ensure data quality as my function removed the dollar signs or commas in the amount column. This works best when doing the calculation and it is more presentable.
+2. To ensure data handling as Dates come as strings (2026-03-01) but need to be datetime objects to calculate spending patterns over time.
+3. To ensure early validation, if my cleaning function fails, every subsequent function (spending analysis, recommendations, chatbot) would produce wrong results. Testing the foundation first prevents cascading errors.
+
+**What I Tested:**
+1. Dollar sign removal (though AI gave clean data, the function handles them)
+2. Date conversion to datetime
+3. Amount conversion to numeric values
+4. Handling of negative numbers (expenses)
+
+**Test Results:**
+1. 15 transactions loaded successfully
+2. All amounts are numeric
+3. Dates properly formatted
+4. Total Income: $1,300
+5. Expenses: $999.55
+6. Net Savings: $300.45
+
+**Reflection:** 
+I learned that testing isn't just about "does it work"  it's about verifying assumptions. By testing the cleaning function first, I confirmed my data foundation is solid. This is a professional practice: validate early, validate often. If I had skipped testing and gone straight to building the chatbot, I wouldn't know if errors came from the cleaning function or the chat logic.
+
 
 
 ## Foundation Skills Examples
