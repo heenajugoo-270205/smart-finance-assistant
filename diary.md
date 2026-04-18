@@ -37,11 +37,11 @@ Can you suggest me which theme i could choose for my programming assignment. I w
 
 <img width="945" height="601" alt="image" src="https://github.com/user-attachments/assets/d982c7d1-2941-4424-afa4-31461b8e04ee" />
 
-**Reflection:** My first prompt was too vague and it was not meeting my preference. The options providedd by ChatGPT at first did not help me to decide at all. I felt lost and had to reformulate my prompt.
+**Reflection:** My first prompt was too vague and it was not meeting my preference. The options provided by ChatGPT at first did not help me to decide at all. I felt lost and had to reformulate my prompt.
 
 I realised that the AI needed more context. My second prompt included my constraints based on my assignment requirement, the suggested themes from the assignment requirement, my preference which is budget buddy and what i needed.
 
-The AI second response was much better where it recommended the " Student Bidget Buddy" with specific features like a relatable chatbot personlaity, budgeting tips for RAG and a custom budget calculator.
+The AI second response was much better where it recommended the " Student Budget Buddy" with specific features like a relatable chatbot personality, budgeting tips for RAG and a custom budget calculator.
 
 
 ## Foundation Skills Examples
