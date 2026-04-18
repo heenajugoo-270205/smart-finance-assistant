@@ -10,16 +10,25 @@ This file shows sample entries for your **Developer's Diary**. You must document
 ---
 
 Entry 1 – Choosing Student Budget Theme (Week 8)
-**Artifact:** <img width="1909" height="840" alt="image" src="https://github.com/user-attachments/assets/c293b8dc-73c2-4ba5-b23f-c0f27ccd5305" />
 
+**Artifact:** <img width="1909" height="840" alt="image" src="https://github.com/user-attachments/assets/c293b8dc-73c2-4ba5-b23f-c0f27ccd5305" />
 
 **Context:** Selecting the right finance problem to solve.
 
-**My Prompt:** "What's a good theme for a finance assistant that's unique?"
+**My First Prompt:** "What's a good theme for a finance assistant that's unique?"
 
-**AI Response:** Suggested Student Budget Application.
+**AI Response:** <img width="1067" height="697" alt="image" src="https://github.com/user-attachments/assets/dfa77091-ff30-44cd-aaed-94af345707d1" />
+<img width="932" height="624" alt="image" src="https://github.com/user-attachments/assets/587430b6-a141-4268-8e1f-965f0c6447d3" />
 
-**Reflection:** Learned to be specific about user personas...
+**My Second Prompt:** "I'm building a Smart Finance Assistant for my university programming assignment. The project requires: a chatbot personality, RAG retrieval from CSV/documents, one custom tool (calculator/converter), and a Gradio UI.
+The suggested themes are: Budget Buddy, Investment Insight, Currency Converter Agent, or Savings Coach.
+Can you suggest me which theme i could choose for my programming assignment. I would like to focus on the budget buddy."
+
+**AI Response:** <img width="945" height="601" alt="image" src="https://github.com/user-attachments/assets/d982c7d1-2941-4424-afa4-31461b8e04ee" />
+
+
+
+**Reflection:** My first prompt was too vague
 
 
 ## Foundation Skills Examples
