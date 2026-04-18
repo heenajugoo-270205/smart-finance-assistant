@@ -43,6 +43,20 @@ I realised that the AI needed more context. My second prompt included my constra
 
 The AI second response was much better where it recommended the " Student Budget Buddy" with specific features like a relatable chatbot personality, budgeting tips for RAG and a custom budget calculator.
 
+Entry 2 – AI Server Connection Error (Week 8)
+
+**Artifact:** 
+<img width="1782" height="592" alt="image" src="https://github.com/user-attachments/assets/795a6096-5b9b-4e1f-955e-19a4407777dd" />
+
+
+**Context:** Testing the hands-on-ai connection after completing the setup cells.
+
+**The Problem:** When I ran the Connection Test cell, I got a Connection Error. The package was installed correctly and the API key was entered, but the server at `https://ollama.serveur.au` would not respond.
+
+**What I Tried:** 
+1. Re-ran the cell multiple times but i got the same error each time.
+2. Checked that my API key was correct
+
 
 ## Foundation Skills Examples
 
